@@ -1,18 +1,42 @@
 @import "variables";
+html {
+  margin: 0;
+}
 
+a {
+  font-size: 20px;
+  color: $text-color;
+  font-family: $font-family;
+  display: inline-block;
+  line-height: 25px;
+}
 .container {
   background-color: $background-color;
+  width: 400px;
+  padding-bottom: 30px;
+  margin: 0;
 }
 
 h3 {
+  font-size: 30px;
+  font-family: $font-family;
   color: $text-color;
-  margin-left: 50px;
+  padding-top: 30px;
+  padding-left: 30px;
 }
 
 ul {
-
+  list-style-type: none;
 }
 
 li {
-  color: $text-color;
+
+}
+
+li:before {
+  font-family: 'FontAwesome';
+  content: '\f061';
+  font-size: 20px;
+  margin-right: 5px;
+  color: orange;
 }
